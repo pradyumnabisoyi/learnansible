@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  gather_facts: yes
   tasks:
   - name: I want to install git on ansible ubuntu
     ping:
