@@ -3,15 +3,12 @@
   become: yes
   gather_facts: yes
   tasks:
-  - name: I want to install git on ansible ubuntu
-    ping:
-    
-  - name: I want to start webserver in ubuntu
+  - name: I want to start git in ubuntu
     apt:
-    - name: git
+      name: git
       state: present
 
   - name: I want to install tree on ansible ubuntu nodes
     apt:
-    - name: tree
+      name: tree
       state: present
