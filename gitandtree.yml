@@ -5,6 +5,7 @@
   tasks:
   - name: I want to install git on ansible ubuntu
     ping:
+    
   - name: I want to start webserver in ubuntu
     apt:
     - name: git
